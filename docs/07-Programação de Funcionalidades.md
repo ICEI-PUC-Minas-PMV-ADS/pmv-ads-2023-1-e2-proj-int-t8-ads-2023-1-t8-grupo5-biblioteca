@@ -6,7 +6,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 Tela que permite o usuário realizar o login ou o registro na aplicação.
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/Dev_Marcelo_08_04/docs/img/Tela_login.PNG)
+![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/docs/img/Tela_login.PNG)
 
 <b>**Requisitos atendidos**</b>
 - RF-01 -O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades, sejam eles do tipo leitor ou bibliotecário.
@@ -19,7 +19,7 @@ Tela que permite o usuário realizar o login ou o registro na aplicação.
 
 <b> Estrutura de Dados </b> 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/Dev_Marcelo_08_04/docs/img/Prints%20cod/1-html_css_java_signin.PNG)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/docs/img/Prints%20cod/1-html_css_java_signin.PNG)
 
 
 
@@ -28,7 +28,7 @@ Tela que permite o usuário realizar o login ou o registro na aplicação.
 
 Tela que permite ao usuário realizar o registro na aplicação, o usuário devera fornecer um nome de usuario, e-mail e senha para poder acessar a plataforma.
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/Dev_Marcelo_08_04/docs/img/Tela_cadastro_usuario.PNG)
+![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/docs/img/Tela_cadastro_usuario.PNG)
 
 <b>**Requisitos atendidos**</b>
 - RF-01 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades, sejam eles do tipo leitor ou bibliotecário.
@@ -39,7 +39,7 @@ Tela que permite ao usuário realizar o registro na aplicação, o usuário deve
 - signup.js
 
 <b> Estrutura de Dados </b> 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/Dev_Marcelo_08_04/docs/img/Prints%20cod/2-html_css_java_cadastro_usuario.PNG)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/docs/img/Prints%20cod/2-html_css_java_cadastro_usuario.PNG)
 
 
 
@@ -48,7 +48,7 @@ Tela que permite ao usuário realizar o registro na aplicação, o usuário deve
 
 Tela que permite o usuário navegar pelos menus das paginas.
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/Dev_Marcelo_08_04/docs/img/Tela_home.PNG)
+![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/docs/img/Tela_home.PNG)
 
 <b>**Requisitos atendidos**</b>
 
@@ -60,7 +60,7 @@ Tela que permite o usuário navegar pelos menus das paginas.
 - style-grid.css
 
 <b> Estrutura de Dados </b> 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/Dev_Marcelo_08_04/docs/img/Prints%20cod/3-html_css_home.PNG)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/docs/img/Prints%20cod/3-html_css_home.PNG)
 
 
 
