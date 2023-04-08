@@ -6,7 +6,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 Tela que permite o usuário realizar o login ou o registro na aplicação.
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/docs/img/Tela_login.PNG)
+![image](../docs/img/Tela_login.PNG)
 
 <b>**Requisitos atendidos**</b>
 - RF-01 -O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades, sejam eles do tipo leitor ou bibliotecário.
@@ -19,7 +19,7 @@ Tela que permite o usuário realizar o login ou o registro na aplicação.
 
 <b> Estrutura de Dados </b> 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/docs/img/Prints%20cod/1-html_css_java_signin.PNG)
+![image](../docs/img/Prints%20cod/1-html_css_java_signin.PNG)
 
 
 
@@ -69,7 +69,7 @@ Tela que permite o usuário navegar pelos menus das paginas.
 
 Tela que permite ao usuário edite suas informaçoes na plataforma e possa excluir seus dados.
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/Dev_Marcelo_08_04/docs/img/Tela_perfil.PNG)
+![image](../docs/img/Tela_perfil.PNG)
 
 <b>**Requisitos atendidos**</b>
 - RF-02 - O sistema deve permitir que um usuário edite suas próprias informações de usuário.
