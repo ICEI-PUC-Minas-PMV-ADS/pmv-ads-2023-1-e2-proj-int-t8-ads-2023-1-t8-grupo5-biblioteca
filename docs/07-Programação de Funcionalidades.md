@@ -28,7 +28,7 @@ Tela que permite o usuário realizar o login ou o registro na aplicação.
 
 Tela que permite ao usuário realizar o registro na aplicação, o usuário devera fornecer um nome de usuario, e-mail e senha para poder acessar a plataforma.
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/docs/img/Tela_cadastro_usuario.PNG)
+![image](../docs/img/Tela_cadastro_usuario.PNG))
 
 <b>**Requisitos atendidos**</b>
 - RF-01 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades, sejam eles do tipo leitor ou bibliotecário.
@@ -39,7 +39,7 @@ Tela que permite ao usuário realizar o registro na aplicação, o usuário deve
 - signup.js
 
 <b> Estrutura de Dados </b> 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/docs/img/Prints%20cod/2-html_css_java_cadastro_usuario.PNG)
+![image](../docs/img/Prints%20cod/2-html_css_java_cadastro_usuario.PNG)
 
 
 
@@ -48,7 +48,7 @@ Tela que permite ao usuário realizar o registro na aplicação, o usuário deve
 
 Tela que permite o usuário navegar pelos menus das paginas.
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/docs/img/Tela_home.PNG)
+![image](../docs/img/Tela_home.PNG)
 
 <b>**Requisitos atendidos**</b>
 
@@ -60,7 +60,7 @@ Tela que permite o usuário navegar pelos menus das paginas.
 - style-grid.css
 
 <b> Estrutura de Dados </b> 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/docs/img/Prints%20cod/3-html_css_home.PNG)
+![image](../docs/img/Prints%20cod/3-html_css_home.PNG)
 
 
 
@@ -83,7 +83,7 @@ Tela que permite ao usuário edite suas informaçoes na plataforma e possa exclu
 
 <b> Estrutura de Dados </b> 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/Dev_Marcelo_08_04/docs/img/Prints%20cod/4-html_css_Perfil.PNG)
+![image](../docs/img/Prints%20cod/4-html_css_Perfil.PNG)
 
 
 
@@ -92,7 +92,7 @@ Tela que permite ao usuário edite suas informaçoes na plataforma e possa exclu
 
 A tela que permite ao usuário reservar um livro que nao esteja reservados.
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/Dev_Marcelo_08_04/docs/img/Tela_livros.PNG)
+![image](../docs/img/Tela_livros.PNG)
 
 <b>Requisitos atendidos</b>
 
@@ -105,7 +105,7 @@ A tela que permite ao usuário reservar um livro que nao esteja reservados.
 
 <b> Estrutura de Dados </b> 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/Dev_Marcelo_08_04/docs/img/Prints%20cod/5-html_css_Livro.PNG)
+![image](../docs/img/Prints%20cod/5-html_css_Livro.PNG)
 
 
 
@@ -113,9 +113,9 @@ A tela que permite ao usuário reservar um livro que nao esteja reservados.
 
 A tela que permite o cadastro de livros na plataforma.
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/Dev_Marcelo_08_04/docs/img/Tela_cadastro_livros.PNG)
+![image](../docs/img/Tela_cadastro_livros.PNG)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/Dev_Marcelo_08_04/docs/img/Tela_cadastro_livros1.PNG)
+![image](../docs/img/Tela_cadastro_livros1.PNG)
 
 <b> Requisitos Atendidos </b>
 
@@ -132,6 +132,6 @@ A tela que permite o cadastro de livros na plataforma.
 
 <b> Estrutura de dados </b>
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/blob/Dev_Marcelo_08_04/docs/img/Prints%20cod/6-html_css_Livro.PNG)
+![image](../docs/img/Prints%20cod/6-html_css_Livro.PNG)
 
 
