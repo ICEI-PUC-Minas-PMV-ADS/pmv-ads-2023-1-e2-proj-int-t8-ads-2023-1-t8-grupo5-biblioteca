@@ -24,7 +24,7 @@ O objetivo geral do projeto é a criação de um sistema que permita o usuário 
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
-https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/src/index.html
+[link] (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e2-proj-int-t8-biblioteca/src/index.html)
 
 Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
 
