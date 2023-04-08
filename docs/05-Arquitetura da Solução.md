@@ -17,13 +17,13 @@ Nesta seção será apresentada uma estrutura de software que define como o sist
 ![Diagrama de Componentes](/docs/img/Diagrama%20de%20Componentes.png)
 
 ### Tecnologias Utilizadas
-- Linguagem de programação: PHP
+- Linguagem de programação: C#
 - Banco de dados: MySQL
-- Frameworks: Laravel (PHP)
-- IDEs: Visual Studio Code
+- Frameworks: ASP.NET
+- IDEs: Visual Studio
 - Serviços web: ISBNdb
 - Ferramentas de controle de versão: Git
-- Bibliotecas: PDO (PHP)
+- Bibliotecas: ADO.NET
 
 ## Hospedagem
 
