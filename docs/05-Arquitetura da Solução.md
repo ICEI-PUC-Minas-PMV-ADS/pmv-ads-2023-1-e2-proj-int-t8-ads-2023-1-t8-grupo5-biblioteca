@@ -3,29 +3,27 @@
 Nesta seção será apresentada uma estrutura de software que define como o sistema será construído e como seus componentes irão interagir para permitir que os usuários gerenciem o catálogo de livros e informações da biblioteca de forma eficiente.
 
 ## Diagrama de Classes
-![Diagrama de Classes](/docs/img/Diagrama%20de%20Classe.png)
+![Diagrama de Classe](/docs/img/Diagrama%20de%20Classe.png)
 
 ## Modelo ER (Projeto Conceitual)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
-
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
-
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+![Diagrama Modelo ER](/docs/img/Diagrama%20Modelo%20ER.png)
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+![Diagrama Esquema Relacional](/docs/img/Esquema%20Relacional.png)
 
-## Tecnologias Utilizadas
+## Diagrama de Componentes
+![Diagrama de Componentes](/docs/img/Diagrama%20de%20Componentes.png)
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+### Tecnologias Utilizadas
+- Linguagem de programação: PHP
+- Banco de dados: MySQL
+- Frameworks: Laravel (PHP)
+- IDEs: Visual Studio Code
+- Serviços web: ISBNdb
+- Ferramentas de controle de versão: Git
+- Bibliotecas: PDO (PHP)
 
 ## Hospedagem
 
