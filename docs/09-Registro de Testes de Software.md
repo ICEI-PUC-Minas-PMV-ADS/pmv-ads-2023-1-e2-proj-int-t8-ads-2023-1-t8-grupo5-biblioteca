@@ -1,12 +1,21 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+### Caso de teste - 01
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
+Verificar se o sistema apresenta corretamente a lista com todos os livros disponíveis na biblioteca, incluindo o título e autor.
+
+![teste-01](img/Tela_livros.PNG)
+
+A lista de livros disponiveis estarão nessa tela.
+
+#### Caso de teste - 02
+
+O sistema deve permitir que qualquer usuário visualize todas as informações de status do livro para reservas
+
+![teste-02](img/Tela_cadastro_livros.PNG)
+
+Nessa tela o usuário podera cadastrar e consultar as informções de determinado livro. 
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+Diante de um cenário onde o projeto em questão atualmete se encontra estático e limitado a tecnologias front-end, os testes realizados foram concluidos parcialmete. O projeto necessitará de uma base de dados para que os testes sejam bem sucedidos.  
