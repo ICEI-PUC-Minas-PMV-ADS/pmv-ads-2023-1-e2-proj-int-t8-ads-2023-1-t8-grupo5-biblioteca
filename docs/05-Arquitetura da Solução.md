@@ -26,12 +26,7 @@ Nesta seção será apresentada uma estrutura de software que define como o sist
 - Bibliotecas: ADO.NET
 
 ## Hospedagem
+O site utiliza a plataforma Microsoft Azure como ambiente de hospedagem do site do projeto. O
+site será mantido no ambiente da URL: 
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+> - [Microsoft Azure](https://azure.microsoft.com/pt-br/)
