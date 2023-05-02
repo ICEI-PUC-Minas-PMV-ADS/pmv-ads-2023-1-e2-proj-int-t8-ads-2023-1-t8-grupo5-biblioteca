@@ -1,10 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Configurações locais (.vs)\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca",
+    "\\Configurações locais (.vs)\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\v16",
     "\\src",
     "\\src\\Projeto_VS2019",
-    "\\src\\Projeto_VS2019\\MyLibrary"
+    "\\src\\Projeto_VS2019\\MyLibrary",
+    "\\src\\Projeto_VS2019\\MyLibrary\\.vs",
+    "\\src\\Projeto_VS2019\\MyLibrary\\Views",
+    "\\src\\Projeto_VS2019\\MyLibrary\\Views\\Login"
   ],
-  "SelectedNode": "\\src\\Projeto_VS2019\\MyLibrary",
+  "SelectedNode": "\\src\\Projeto_VS2019\\MyLibrary\\Views\\Login\\Criar.cshtml",
   "PreviewInSolutionExplorer": false
 }
