@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Projeto_VS2019\\MyLibrary\\MyLibrary.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Projeto_VS2019\\MyLibrary\\MyLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Projeto_VS2019\\MyLibrary\\MyLibrary.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Projeto_VS2019\\MyLibrary\\MyLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Projeto_VS2019\\MyLibrary\\MyLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Projeto_VS2019\\MyLibrary\\MyLibrary.csproj",
         "projectName": "MyLibrary",
-        "projectPath": "C:\\Users\\user\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Projeto_VS2019\\MyLibrary\\MyLibrary.csproj",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Projeto_VS2019\\MyLibrary\\MyLibrary.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Projeto_VS2019\\MyLibrary\\obj\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Projeto_VS2019\\MyLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
