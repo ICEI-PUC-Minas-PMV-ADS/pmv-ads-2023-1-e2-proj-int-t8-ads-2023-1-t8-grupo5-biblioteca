@@ -1,0 +1,26 @@
+﻿@model List<UsuarioModel>
+@{
+    ViewData["Title"] = "Lista de Usuários";
+}
+
+<br />
+@if (TempData["MenssagemSucesso"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" aria-label="Close">X</button>
+        @TempData["MenssagemSuceso"]
+    </div>
+}
+
+@if (TempData["MenssagemErro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" aria-label="Close">X</button>
+        @TempData["MenssagemErro"]
+    </div>
+}
+
+<br />
+
+<h1 class="text-center">Welcome</h1>
+

@@ -1,0 +1,42 @@
+﻿@model UsuarioModel
+@{
+    ViewData["Title"] = "Cirar Usuario";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cadastrar usuario</h1>
+</div>
+
+<form asp-controler="Usuario" asp-action="Criar" method="post">
+
+    <div class="form-group">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite seu nome">
+        @Html.ValidationMessageFor(x => x.Nome)
+    </div>
+
+    <div class="form-group">
+        <label for="nome" class="form-label">Email</label>
+        <input type="text" asp-for="Email" class="form-control" placeholder="Digite seu Email">
+        @Html.ValidationMessageFor(x => x.Email)
+    </div>
+
+    <div class="form-group">
+        <label for="nome" class="form-label">Usuario</label>
+        <input type="text" asp-for="Login" class="form-control" placeholder="Usuario para Login">
+        @Html.ValidationMessageFor(x => x.Login)
+    </div>
+
+   
+
+    <div class="form-group">
+        <label for="nome" class="form-label">Senha</label>
+        <input type="password" asp-for="Senha" class="form-control" placeholder="Digite a senha">
+        @Html.ValidationMessageFor(x => x.Senha)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Adicionar</button>
+    <a class="btn btn-secondary" asp-action="Index" asp-controller="Login" role="button">Cancelar</a>
+
+
+</form>
