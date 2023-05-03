@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
-    "\\src\\Projeto_VS2019",
-    "\\src\\Projeto_VS2019\\MyLibrary",
-    "\\src\\Projeto_VS2019\\MyLibrary\\Views",
-    "\\src\\Projeto_VS2019\\MyLibrary\\Views\\Login"
+    "\\src"
   ],
-  "SelectedNode": "\\src\\Projeto_VS2019\\MyLibrary\\Views\\Login\\Criar.cshtml",
+  "SelectedNode": "\\src\\index.html",
   "PreviewInSolutionExplorer": false
 }
