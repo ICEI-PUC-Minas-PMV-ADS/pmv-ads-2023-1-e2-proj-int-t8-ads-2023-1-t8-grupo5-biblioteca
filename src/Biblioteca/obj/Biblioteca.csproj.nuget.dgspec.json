@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\Silvestre\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\Silvestre\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Silvestre\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\user\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Biblioteca\\Biblioteca.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Biblioteca\\obj\\",
+        "projectPath": "C:\\Users\\Silvestre\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Biblioteca\\Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\Silvestre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Silvestre\\Documents\\GitHub\\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\\src\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Silvestre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

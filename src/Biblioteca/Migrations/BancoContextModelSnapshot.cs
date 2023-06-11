@@ -15,6 +15,26 @@ namespace Biblioteca.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.17");
 
+            modelBuilder.Entity("Biblioteca.Models.LivroModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Autor")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Categoria")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Titulo")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Livros");
+                });
+
             modelBuilder.Entity("Biblioteca.Models.UsuarioModel", b =>
                 {
                     b.Property<int>("Id")
