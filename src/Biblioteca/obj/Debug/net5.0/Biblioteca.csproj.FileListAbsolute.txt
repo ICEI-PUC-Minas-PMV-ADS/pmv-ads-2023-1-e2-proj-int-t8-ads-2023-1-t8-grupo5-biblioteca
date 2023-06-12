@@ -816,4 +816,3 @@ C:\Users\Silvestre\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\src
 C:\Users\Silvestre\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\src\Biblioteca\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Silvestre\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\src\Biblioteca\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Silvestre\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\src\Biblioteca\obj\Debug\net5.0\Razor\Views\Livro\Index.cshtml.g.cs
-C:\Users\Silvestre\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\src\Biblioteca\obj\Debug\net5.0\Razor\Views\Teste\Index.cshtml.g.cs
