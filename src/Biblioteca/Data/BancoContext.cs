@@ -14,5 +14,6 @@ namespace Biblioteca.Data
         }
 
         public DbSet<UsuarioModel> Usuarios { get; set; }
+        public DbSet<LivroModel> Livros { get; set; }
     }
 }
