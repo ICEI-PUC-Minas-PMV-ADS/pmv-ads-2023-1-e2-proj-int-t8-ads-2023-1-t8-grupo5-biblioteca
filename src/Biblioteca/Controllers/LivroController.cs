@@ -24,5 +24,21 @@ namespace Biblioteca.Controllers
             IEnumerable<LivroModel> objList = _db.Livros;
             return View(objList);
         }
+
+        public IActionResult Create()
+        {
+            
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(LivroModel obj)
+        {
+            _db.Livros.Add(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
     }
 }

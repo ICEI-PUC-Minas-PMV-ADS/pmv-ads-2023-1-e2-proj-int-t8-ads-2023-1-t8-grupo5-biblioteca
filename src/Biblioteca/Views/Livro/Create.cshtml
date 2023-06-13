@@ -1,0 +1,53 @@
+﻿
+@model Biblioteca.Models.LivroModel
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Cadastro de livro</h1>
+
+<br>
+
+<form method="post" asp-action="Create" class="container">
+    <div class="form-group row">
+        <div class="col-2">
+            <label asp-for="Titulo">Nome:</label>
+        </div>
+        <div class="col-6">
+            <input type="text" class="form-control" asp-for="Titulo">
+        </div>
+
+
+    </div>
+
+
+    <div class="form-group row">
+
+        <div class="col-2">
+            <label asp-for="Autor">Autor:</label>
+        </div>
+
+        <div class="col-6">
+            <input type="text" class="form-control" asp-for="Autor">
+        </div>
+
+    </div>
+
+
+    <div class="form-group row">
+
+        <div class="col-2">
+            <label asp-for="Categoria">Categoria:</label>
+        </div>
+
+        <div class="col-6">
+            <input type="text" class="form-control" asp-for="Categoria">
+        </div>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a class="btn btn-dark" asp-action="Index" >voltar</a>
+</form>
