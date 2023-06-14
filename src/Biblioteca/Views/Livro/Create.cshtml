@@ -16,7 +16,8 @@
             <label asp-for="Titulo">Nome:</label>
         </div>
         <div class="col-6">
-            <input type="text" class="form-control" asp-for="Titulo">
+            <input type="text" class="form-control" asp-for="Titulo" required>
+            <span asp-validation-for="Titulo" class="text-danger"> </span>
         </div>
 
 
@@ -30,7 +31,8 @@
         </div>
 
         <div class="col-6">
-            <input type="text" class="form-control" asp-for="Autor">
+            <input type="text" class="form-control" asp-for="Autor" required>
+             
         </div>
 
     </div>
@@ -43,7 +45,7 @@
         </div>
 
         <div class="col-6">
-            <input type="text" class="form-control" asp-for="Categoria">
+            <input type="text" class="form-control" asp-for="Categoria" required>
         </div>
 
     </div>

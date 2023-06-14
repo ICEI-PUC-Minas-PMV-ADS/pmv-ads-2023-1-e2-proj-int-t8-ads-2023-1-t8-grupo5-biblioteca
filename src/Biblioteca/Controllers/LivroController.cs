@@ -25,12 +25,14 @@ namespace Biblioteca.Controllers
             return View(objList);
         }
 
+        // GET - CREATE
         public IActionResult Create()
         {
             
             return View();
         }
 
+        // POST - CREATE
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(LivroModel obj)
@@ -38,6 +40,33 @@ namespace Biblioteca.Controllers
             _db.Livros.Add(obj);
             _db.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+
+        //GET - UPDATE
+        public IActionResult Update(int? id)
+        {
+            if(id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var obj = _db.Livros.Find(id);
+
+            if(obj == null)
+            {
+                return NotFound();
+            }
+
+            return View(obj);
+        }
+
+
+        //DELETE
+        public IActionResult Delete(int id)
+        {
+
+            return View();
         }
 
     }
