@@ -37,9 +37,13 @@ namespace Biblioteca.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(LivroModel obj)
         {
-            _db.Livros.Add(obj);
-            _db.SaveChanges();
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _db.Livros.Add(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
         }
 
 
@@ -62,11 +66,60 @@ namespace Biblioteca.Controllers
         }
 
 
-        //DELETE
-        public IActionResult Delete(int id)
+        // POST - UPDATE
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Update(LivroModel obj)
+        { 
+                        
+            if (ModelState.IsValid)
+            {
+                _db.Livros.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
+            
+
+        }
+
+
+        //GET - DELETE
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var obj = _db.Livros.Find(id);
+
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+            return View(obj);
+        }
+
+
+        // POST - DELETE
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteLivro(int? id)
         {
 
-            return View();
+            var obj = _db.Livros.Find(id);
+
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+            _db.Livros.Remove(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+
         }
 
     }
