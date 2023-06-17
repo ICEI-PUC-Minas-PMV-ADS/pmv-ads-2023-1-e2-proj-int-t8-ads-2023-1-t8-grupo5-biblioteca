@@ -1,0 +1,61 @@
+﻿
+@model LivroModel 
+
+
+@{
+    ViewData["Title"] = "Resevar";
+}
+
+<h1>Resevar</h1>
+
+<p>
+    Tem certeza que deseja reservar o livro @Model.Titulo ? 
+</p>
+
+
+<form method="post" asp-controller="Reserva" asp-action="ConfirmarReserva" class="container">
+    <input asp-for="Id" hidden />
+
+
+    <div class="form-group row" hidden>
+        <div class="col-2">
+            <label asp-for="Titulo">Nome:</label>
+        </div>
+        <div class="col-6">
+            <input type="text" class="form-control" asp-for="Titulo" required>
+            <span asp-validation-for="Titulo" class="text-danger"> </span>
+        </div>
+
+
+    </div>
+
+
+    <div class="form-group row" hidden>
+
+        <div class="col-2">
+            <label asp-for="Autor">Autor:</label>
+        </div>
+
+        <div class="col-6">
+            <input type="text" class="form-control" asp-for="Autor" required>
+
+        </div>
+
+    </div>
+
+
+    <div class="form-group row" hidden>
+
+        <div class="col-2">
+            <label asp-for="Categoria">Categoria:</label>
+        </div>
+
+        <div class="col-6">
+            <input type="text" class="form-control" asp-for="Categoria" required>
+        </div>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Reservar Livro</button>
+    <a class="btn btn-dark" asp-controller="Livro" asp-action="Index">voltar</a>
+</form>

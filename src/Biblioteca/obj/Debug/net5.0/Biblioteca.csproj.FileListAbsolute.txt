@@ -819,3 +819,4 @@ C:\Users\Silvestre\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\src
 C:\Users\Silvestre\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\src\Biblioteca\obj\Debug\net5.0\Razor\Views\Livro\Create.cshtml.g.cs
 C:\Users\Silvestre\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\src\Biblioteca\obj\Debug\net5.0\Razor\Views\Livro\Update.cshtml.g.cs
 C:\Users\Silvestre\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\src\Biblioteca\obj\Debug\net5.0\Razor\Views\Livro\Delete.cshtml.g.cs
+C:\Users\Silvestre\Documents\GitHub\pmv-ads-2023-1-e2-proj-int-t8-biblioteca\src\Biblioteca\obj\Debug\net5.0\Razor\Views\Reserva\ConfirmarReserva.cshtml.g.cs
