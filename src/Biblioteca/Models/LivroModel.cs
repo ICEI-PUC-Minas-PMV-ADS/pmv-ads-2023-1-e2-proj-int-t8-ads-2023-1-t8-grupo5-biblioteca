@@ -17,5 +17,7 @@ namespace Biblioteca.Models
 
         public string Categoria { get; set; }
 
+        public ICollection<ReservaModel> Reservas { get; } = new List<ReservaModel>();
+
     }
 }
