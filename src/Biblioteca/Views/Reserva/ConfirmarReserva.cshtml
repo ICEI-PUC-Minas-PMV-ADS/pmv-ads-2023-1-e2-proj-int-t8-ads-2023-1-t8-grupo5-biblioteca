@@ -1,5 +1,5 @@
 ﻿
-@model LivroModel 
+@model LivroModel
 
 
 @{
@@ -9,10 +9,10 @@
 <h1>Resevar</h1>
 
 <p>
-    Tem certeza que deseja reservar o livro @Model.Titulo ? 
+    Tem certeza que deseja reservar o livro @Model.Titulo ?
 </p>
 
-
+<!--
 <form method="post" asp-controller="Reserva" asp-action="ConfirmarReserva" class="container">
     <input asp-for="Id" hidden />
 
@@ -57,5 +57,11 @@
     </div>
 
     <button type="submit" class="btn btn-primary">Reservar Livro</button>
-    <a class="btn btn-dark" asp-controller="Livro" asp-action="Index">voltar</a>
+
+
 </form>
+-->
+
+<a class="btn btn-dark" asp-controller="Livro" asp-action="Index">voltar</a>
+
+<a class="btn btn-success" asp-route-Id="@Model.Id" asp-controller="Reserva" asp-action="ConfirmarReserva2">Reservar</a>

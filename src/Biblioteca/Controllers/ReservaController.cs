@@ -37,21 +37,34 @@ namespace Biblioteca.Controllers
         }
 
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult ConfirmarReserva(LivroModel obj)
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        public IActionResult ConfirmarReserva2(int? id)
         {
 
-            if (ModelState.IsValid)
+            if (id == null || id == 0)
             {
-                
-                //criar a reserva aqui
-                
-                //_db.Livros.Update(obj);
-                //_db.SaveChanges();
-                return RedirectToAction("Index", "Livro");
+                return NotFound();
             }
-            return View(obj);
+
+            var livro = _db.Livros.Find(id);
+
+            if (livro == null)
+            {
+                return NotFound();
+            }
+
+            ReservaModel r1 = new();
+
+            r1.Data = DateTime.Today;
+            r1.LivroId = livro.Id;
+            r1.Livro = livro;
+            r1.Devolvido = false;
+
+            _db.Reservas.Add(r1);
+            _db.SaveChanges();
+
+            return RedirectToAction("Index", "Livro");
 
 
         }
