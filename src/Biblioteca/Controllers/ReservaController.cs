@@ -36,9 +36,6 @@ namespace Biblioteca.Controllers
             return View(obj);
         }
 
-
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
         public IActionResult ConfirmarReserva2(int? id)
         {
 

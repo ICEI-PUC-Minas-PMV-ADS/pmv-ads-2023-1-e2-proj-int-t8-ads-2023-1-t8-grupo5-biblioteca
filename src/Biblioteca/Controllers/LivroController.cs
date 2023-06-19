@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Biblioteca.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Biblioteca.Controllers
 {
@@ -21,7 +22,11 @@ namespace Biblioteca.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<LivroModel> objList = _db.Livros;
+            //IEnumerable<LivroModel> objList = _db.Livros;
+
+            var objList = _db.Livros
+                .Include(Livro => Livro.Reservas);
+
             return View(objList);
         }
 

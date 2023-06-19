@@ -27,6 +27,7 @@
             <th scope="col">Título</th>
             <th scope="col">Autor</th>
             <th scope="col">Categoria</th>
+            <th scope="col">Status</th>
             <th scope="col">Ações</th>
         </tr>
     </thead>
@@ -36,12 +37,16 @@
         <tbody>
 
             @foreach(var obj in Model)
-             {
+            {
+    
                 <tr>
                     <th scope="row">@obj.Id</th>
                     <td>@obj.Titulo</td>
                     <td>@obj.Autor</td>
                     <td>@obj.Categoria</td>
+                    <td>
+                         status                      
+                    </td>
                     <td>
                         <a class="btn btn-info" asp-route-Id="@obj.Id" asp-controller="Livro" asp-action="Update">Editar</a>
                         <a class="btn btn-danger" asp-route-Id="@obj.Id" asp-controller="Livro" asp-action="Delete">Excluir</a>
